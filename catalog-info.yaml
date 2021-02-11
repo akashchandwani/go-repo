@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: go-repo
+  description: akashchandwani
+  annotations: 
+    github.com/project-slug: akashchandwani/go-repo
+    backstage.io/source-ref: "https://github.com/akashchandwani/go-repo"
+    backstage.io/techdocs-ref: url:https://github.com/akashchandwani/go-repo
+    backstage.io/github-actions-id: https://github.com/akashchandwani/go-repo
+spec:
+  type: service
+  lifecycle: experimental
+  owner: akashchandwani
